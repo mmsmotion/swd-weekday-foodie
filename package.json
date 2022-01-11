@@ -1,0 +1,19 @@
+{
+  "name": "foodie-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "animate.css": "^4.1.1",
+    "bootstrap": "^5.1.3",
+    "typed.js": "^2.0.12",
+    "wow.js": "^1.2.2"
+  }
+}

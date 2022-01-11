@@ -1,0 +1,29 @@
+
+//font
+$font-family-sans-serif : 'Montserrat', sans-serif;
+
+//color
+$primary : #018847;
+
+//navbar
+$nav-link-font-weight : bold;
+$navbar-nav-link-padding-x : 1.5rem;
+
+$btn-padding-x-lg : 2rem;
+
+
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "../node_modules/@fortawesome/fontawesome-free/css/all.min.css";
+@import "../node_modules/animate.css/animate.min.css";
+
+.site-header{
+  z-index: 1005;
+  background-color: #ffffff9c !important;
+  backdrop-filter: saturate(180%) blur(20px);
+}
+
+.about-row{
+  padding: 150px 0;
+}
