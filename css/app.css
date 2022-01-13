@@ -7,6 +7,7 @@
  */
 @import "../node_modules/@fortawesome/fontawesome-free/css/all.min.css";
 @import "../node_modules/animate.css/animate.min.css";
+@import "../node_modules/venobox/dist/venobox.min.css";
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -11129,6 +11130,27 @@ textarea.form-control-lg {
 
 .about-row {
   padding: 150px 0;
+}
+
+.scroll-to-top {
+  bottom: 50px;
+  right: 50px;
+}
+
+.site-header .nav-link.active {
+  background-color: #018847;
+  color: #fff !important;
+  border-radius: 0.25rem;
+}
+
+.gallery {
+  columns: 150px 3;
+}
+
+.gallery img {
+  width: 100%;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
 }
 
 /*# sourceMappingURL=app.css.map */
