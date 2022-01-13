@@ -18,6 +18,8 @@ $btn-padding-x-lg : 2rem;
 @import "../node_modules/@fortawesome/fontawesome-free/css/all.min.css";
 @import "../node_modules/animate.css/animate.min.css";
 @import "../node_modules/venobox/dist/venobox.min.css";
+@import "../node_modules/slick-carousel/slick/slick.css";
+@import "../node_modules/slick-carousel/slick/slick-theme.css";
 
 .site-header{
   z-index: 1005;
@@ -47,4 +49,8 @@ $btn-padding-x-lg : 2rem;
   width: 100%;
   margin-bottom: 1rem;
   border-radius: 0.5rem;
+}
+
+.slick-prev::before,.slick-next::before{
+  color: blue;
 }

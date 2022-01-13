@@ -8,6 +8,8 @@
 @import "../node_modules/@fortawesome/fontawesome-free/css/all.min.css";
 @import "../node_modules/animate.css/animate.min.css";
 @import "../node_modules/venobox/dist/venobox.min.css";
+@import "../node_modules/slick-carousel/slick/slick.css";
+@import "../node_modules/slick-carousel/slick/slick-theme.css";
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -11151,6 +11153,10 @@ textarea.form-control-lg {
   width: 100%;
   margin-bottom: 1rem;
   border-radius: 0.5rem;
+}
+
+.slick-prev::before, .slick-next::before {
+  color: blue;
 }
 
 /*# sourceMappingURL=app.css.map */
